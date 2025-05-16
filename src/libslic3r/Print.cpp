@@ -2564,6 +2564,9 @@ int Print::get_hrc_by_nozzle_type(const NozzleType&type)
             in.close();
             BOOST_LOG_TRIVIAL(error) << __FUNCTION__ << ": parse " << file_path.string() << " got a nlohmann::detail::parse_error, reason = " << err.what();
             nozzle_type_to_hrc = {
+		{"hardened_steel_hf",60},
+                {"stainless_steel_hf",25},
+                {"brass_jf",7},
                 {"hardened_steel",55},
                 {"stainless_steel",20},
                 {"brass",2},
