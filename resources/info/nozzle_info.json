@@ -1,6 +1,9 @@
 {
     "version": "1.0.0.1",
     "nozzle_hrc": {
+        "hardened_steel_hf":60,
+        "stainless_steel_hf":25,
+        "brass_hf": 7,
         "hardened_steel": 55,
         "stainless_steel": 20,
         "brass": 2,
